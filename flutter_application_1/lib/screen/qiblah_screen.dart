@@ -67,6 +67,7 @@ class _KibleEkraniState extends State<KibleEkrani>
                           builder: (context, child) => Transform.rotate(
                               angle: animation!.value,
                               child: Image.asset('assets/images/qibla.png')),
+                          //fix
                         ))
                   ]),
             );
